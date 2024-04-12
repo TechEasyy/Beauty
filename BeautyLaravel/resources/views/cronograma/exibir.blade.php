@@ -9,7 +9,7 @@
 <body>
     <div id="calendario">
         <img src="/img/perfil.png" alt="perfil" width="100px" id="perfil">
-        <p>Horário agendendado com Bruna Bianncardi</p>
+        <p>Horário agendendado com Bruna Biancardi</p>
         <div id="marco">
             <img src="img/seta_pra_direita.png" alt="" width="27px" height="27px">
             <p class="mes">Março</p>
