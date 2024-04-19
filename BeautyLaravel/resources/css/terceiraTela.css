@@ -1,0 +1,213 @@
+:root{
+    --color-primary: #367e32;
+    --color-secundary: rgba(25, 94, 197, 0.963);
+    --color-danger: #FF0060;
+    --color-success: #1B9C85;
+    --color-warning: #F7D060;
+    --color-white: #fff;
+    --color-info-dark: #7d8da1;
+    --color-dark: #2c1604;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-dark-variant: #677483;
+    --color-background: #f6f6f9;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+*{
+    margin: 10px;
+    padding: 0;
+    outline: 0;
+    appearance: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    user-select: none;
+    overflow-x: hidden;
+    color: var(--color-dark);
+    background-color: var(--color-background);
+}
+
+a{
+    color: var(--color-dark);
+    font-size: 1.6rem;
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+h2{
+    font-weight: 600;
+    font-size: 1.4;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 0.87rem;
+}
+
+
+p{
+    color: var(--color-dark-variant);
+}
+
+
+.text-muted{
+    color: var(--color-info-dark);
+}
+
+.primary{
+    color: var(--color-primary);
+}
+
+.danger{
+    color: var(--color-danger);
+}
+
+.success{
+    color: var(--color-success);
+}
+
+.warning{
+    color: var(--color-warning);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    margin-left: 285px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
+
+.container{
+    display: grid;
+    width: 110%;
+    margin: 0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 45rem auto 5rem;
+}
+
+.content{
+    background-color: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-top: 1rem;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/*Lateral */
+
+aside .appointment{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-dark);
+    box-shadow: var(--box-shadow);
+    border-radius: 15px;
+    height: 86vh;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+aside .appointment:hover{
+    box-shadow: none;
+}
+
+
+
+.semana{
+    display: flex;
+    gap: 3px;
+    height: 90px;
+    padding: 20px 120px;
+    border-radius: 10px;
+    list-style: none;
+    background: #fff;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.semana li{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    color: #939191;
+    border-radius: 20px;
+    font-size: 1.25rem;
+    position: relative;
+
+}
+
+.semana li:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    height: calc(100% - 10px); /* Posiciona a linha no meio vertical */
+    right: -22px; /* Ajusta a posição da linha */
+    width: 1px; /* Largura da linha */
+    height: 80%; /* Altura da linha */
+    background-color: #ccc; 
+}
+
+.quadrado {
+    width: 500px;
+    height: 500px; /* Defina uma altura para a div quadrado */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+    position: absolute;
+    z-index: 1;
+    margin-top: -570px;
+    margin-left: 805px;
+}
