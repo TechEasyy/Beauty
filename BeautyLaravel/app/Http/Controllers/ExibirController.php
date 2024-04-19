@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class ExibirController extends Controller
 {
     public function index(){
-        return view('exibir.index');
+        return view('exibir.welcome');
     }
 }

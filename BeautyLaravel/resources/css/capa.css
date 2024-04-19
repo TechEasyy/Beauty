@@ -1,0 +1,53 @@
+header {
+    background-color: #d6d6d6;
+    color: #000;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1820px;
+    height: 25px;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+    left: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+.barra{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Garante que a barra superior ocupe toda a largura */
+    height: 50px; /* Altura da barra superior */
+    background-color: #333; /* Cor de fundo da barra superior */
+    z-index: 1; /* Aumenta a camada da barra superior */
+  }
+  
+  .logo {
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px; /* Nova largura da imagem */
+    height: 40px; /* Nova altura da imagem */
+    background-image: url('imagens\beautiful.jpeg');
+    background-size: cover; /* ou contain, dependendo do efeito desejado */
+    z-index: 2; /* Aumenta a camada da imagem para garantir que fique sobre a barra superior */
+  }
