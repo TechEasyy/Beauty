@@ -12,32 +12,42 @@
 
 <body>
     <div class="container">
-        <h1>Gerenciamento de Procedimentos Estéticos</h1>
+        <h1>GERENCIAMENTO</h1>
 
-        <div id="form-container">
-            <h2>Novo Procedimento</h2>
+        <div class="quadrado">
+           
+            <h2 class="text1">Novo Procedimento</h2>
+            <div id="form-container">
+
             <form id="procedimento-form">
-                <div class="form-group">
-                    <label for="nome">Nome do Procedimento:</label>
-                    <input type="text" id="nome" name="nome" required>
-                </div>
-                <div class="form-group">
-                    <label for="descricao">Descrição:</label>
-                    <textarea id="descricao" name="descricao" rows="5" required></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="valor">Valor:</label>
-                    <input type="number" id="valor" name="valor" required>
-                </div>
+                    <div class="form-group">
 
-                <center>
-                    <button type="submit">Salvar</button>
-                    <button class="excluir" type="reset">Excluir</button>
-                    <button class="editar" type="button">Editar</button>
-                </center>
+                        <label for="nome">Nome do Procedimento:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
 
-            </form>
+                    <div class="form-group">
+                        <label for="descricao">Descrição:</label>
+                        <textarea id="descricao" name="descricao" rows="5" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="valor">Valor:</label>
+                        <input type="number" id="valor" name="valor" required>
+                    </div>
+
+                </div>            
         </div>
+    </div>
+        
+          <div class="button">
+                <button type="submit">Salvar</button>
+                <button class="excluir" type="reset">Excluir</button>
+                <button class="editar" type="button">Editar</button>
+           
+            </div>
+            </form>
+     
 
         <div id="table-container">
             <h2>Lista de Procedimentos</h2>
