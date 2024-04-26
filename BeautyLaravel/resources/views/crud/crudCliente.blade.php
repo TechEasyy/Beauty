@@ -1,10 +1,11 @@
+!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD Procedimentos Estéticos</title>
-    <link rel="stylesheet" href="cliente.css">
+    <link rel="stylesheet" href="crudStyle.css">
     @vite(['resources/css/crud.css'])
 
 </head>
@@ -27,7 +28,7 @@
 
                     <div class="form-group">
                         <label for="descricao">Telefone:</label>
-                        <input id="descricao"  name="descricao"  required>
+                        <textarea id="descricao" name="descricao" rows="5" required></textarea>
                     </div>
 
                     <div class="form-group">
@@ -55,7 +56,7 @@
                     <tr>
                         <th>ID</th>
                         <th>Nome</th>
-                        <th>Telefone</th>
+                        <th>Telefoe</th>
                         <th>Email</th>
                     </tr>
                 </thead>
