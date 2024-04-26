@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class AtendimentoController extends Controller
 {
-    public function index(){
+    public function TerceiraTela(){
         return view('atendimento.TerceiraTela');
     }
 }

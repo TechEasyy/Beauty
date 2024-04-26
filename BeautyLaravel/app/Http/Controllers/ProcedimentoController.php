@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ProcedimentoController extends Controller
 {
-    public function index(){
+    public function crudProcedimento(){
         return view('crud.crudProcedimento');
     }
 }

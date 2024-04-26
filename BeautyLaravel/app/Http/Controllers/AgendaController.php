@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class AgendaController extends Controller
 {
-    public function index(){
+    public function pagina02(){
         return view('agenda.pagina02');
     }
 }

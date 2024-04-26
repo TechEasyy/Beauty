@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class CapaController extends Controller
 {
-    public function index(){
+    public function capa(){
         return view('capa.index');
     }
 }

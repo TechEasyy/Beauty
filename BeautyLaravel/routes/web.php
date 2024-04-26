@@ -9,7 +9,7 @@ use App\Http\Controllers\ProcedimentoController;
 use App\Http\Controllers\AtendimentoController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [CapaController::class, 'index'])->name('exibir');
+Route::get('/', [CapaController::class, 'capa'])->name('capa');
 Route::get('/cronograma/exibir', [CronogramaController::class, 'exibir'])->name('montarCronograma');
 Route::get('/agenda/pagina02', [AgendaController::class, 'pagina02'])->name('agenda');
 Route::get('/crud/crudProcedimento', [ProcedimentoController::class, 'crudProcedimento'])->name('procedimento');
