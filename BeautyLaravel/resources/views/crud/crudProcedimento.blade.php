@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD Procedimentos Estéticos</title>
-    <link rel="stylesheet" href="crud.css">
+    <link rel="stylesheet" href="crudStyle.css">
     @vite(['resources/css/crud.css'])
 
 </head>
@@ -15,11 +15,11 @@
         <h1>GERENCIAMENTO</h1>
 
         <div class="quadrado">
-           
+
             <h2 class="text1">Novo Procedimento</h2>
             <div id="form-container">
 
-            <form id="procedimento-form">
+                <form id="procedimento-form">
                     <div class="form-group">
 
                         <label for="nome">Nome do Procedimento:</label>
@@ -35,35 +35,33 @@
                         <label for="valor">Valor:</label>
                         <input type="number" id="valor" name="valor" required>
                     </div>
+                </form>
+            </div>
 
-                </div>            
-        </div>
-    </div>
-        
-          <div class="button">
+            <div class="button">
                 <button type="submit">Salvar</button>
                 <button class="excluir" type="reset">Excluir</button>
                 <button class="editar" type="button">Editar</button>
-           
-            </div>
-            </form>
-     
 
-        <div id="table-container">
-            <h2>Lista de Procedimentos</h2>
-            <table id="procedimentos-table">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Nome</th>
-                        <th>Descrição</th>
-                        <th>Valor</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
+            </div>
         </div>
+    </div>
+
+    <div id="table-container">
+        <h2>Lista de Procedimentos</h2>
+        <table id="procedimentos-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
     </div>
 
     <script src="script.js"></script>
