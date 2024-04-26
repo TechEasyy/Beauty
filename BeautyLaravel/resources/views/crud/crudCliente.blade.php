@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD Clientes</title>
     <link rel="stylesheet" href="cliente.css">
-    @vite(['resources/css/crudCliente.css'])
+    @vite(['resources/css/cliente.css'])
 
 </head>
 <body>
