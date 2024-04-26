@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="css/pagina2.css">
+    @vite(['resources/css/pagina2.css'])
     <title>Agendamento</title>
 </head>
 <body>
         <div class="appointment">
             <div class="img">
-                <img src="imagens/perfil.png"> 
+                <img src="/public/imgs/perfil.jpeg"> 
             </div>
     
             <h2>Horário agendado com Bruna Blancardi</h2>

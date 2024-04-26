@@ -15,7 +15,7 @@
         <aside>
             <div class="appointment">
                 <div class="img">
-                    <img src="imagens/user.png">
+                    <img src="/public/imgs/user.jpeg">
                 </div>
 
                 <h2>Horário Semanal</h2>

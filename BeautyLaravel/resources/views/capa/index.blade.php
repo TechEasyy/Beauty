@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela Principal</title>
     @vite(['resources/css/capa.css'])
-    <link rel="stylesheet" href="CSS/capa.css">
+    <link rel="stylesheet" href="css/capa.css">
     
 </head>
 
 <body>
 
-    <body style="background-image: url('imagens/imagenPrincipal.PNG'); background-size: cover;"></body>
+    <body style="background-image: url('/public/imgs/imagenPrincipal.PNG'); background-size: cover;"></body>
     <div class="barra">
         <header>
             <nav>
@@ -23,7 +23,7 @@
                 </ul>
 
                 <div>
-                    <img class="logo" src="imagens/beautiful.jpeg">
+                    <img class="logo" src="/public/imgs/beautiful.jpeg">
                 </div>
     </div>
     </nav>
